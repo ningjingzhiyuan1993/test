@@ -1,12 +1,12 @@
 def findMinAndMax(L):
 	if L == []:
-		return (None,None)
+		return (None, None)
 	Max = L[0]
 	Min = L[0]
 	for i in L:
-		Max = max(Max,i)
-		Min = min(Min,i)
-	return (Min,Max)
+		Max = max(Max, i)
+		Min = min(Min, i)
+	return (Min, Max)
 	
 	
 if findMinAndMax([]) != (None, None):
